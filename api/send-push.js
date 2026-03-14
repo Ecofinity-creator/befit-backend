@@ -1,3 +1,4 @@
+
 const webpush = require('web-push');
 
 const VAPID_PUBLIC = 'BJoNsaWDe1tjHP5afxOdW7M2iEiQDtDKHJLmlQmsO3Y8EcGI7TVYZX9SyUoJfSUkgInuWEw1DvRxgb_md13xo5M';
@@ -21,4 +22,3 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: err.message });
   }
 };
-```
