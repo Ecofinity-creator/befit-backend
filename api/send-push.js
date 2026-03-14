@@ -22,9 +22,3 @@ module.exports = async function handler(req, res) {
   }
 };
 ```
-
-**Stap 3 — Sla op en push naar GitHub:**
-```
-git add .
-git commit -m "Correcte push handler"
-git push origin main
